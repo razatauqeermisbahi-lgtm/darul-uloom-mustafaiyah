@@ -1,0 +1,28 @@
+.titleUrdu {
+  text-align: center;
+  color: #212ea0;
+  font-size: 15px;
+  margin: 70px 0 30px;
+}
+.titleUrdu h2 {
+  font-family: "Aslam";
+  font-weight: 200;
+  font-size: 30px;
+  color: #000f38;
+  text-align: center;
+  margin-top: 5px;
+}
+.titleUrdu p {
+  font-family: "Jameel";
+  font-size: 22px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .titleUrdu h2 {
+    font-size: 18px;
+  }
+
+  .titleUrdu p {
+    font-size: 15px;
+  }
+}

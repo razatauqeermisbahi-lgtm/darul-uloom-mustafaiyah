@@ -1,0 +1,97 @@
+.darseNizamiUrdu h1 {
+  direction: rtl;
+  font-family: "Aslam";
+  font-weight: 100;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.darseNizamiUrdu h3 {
+  direction: rtl;
+  font-family: "Jameel";
+  font-size: 30px;
+  font-weight: 600;
+}
+.darseNizamiUrdu p {
+  direction: rtl;
+  font-family: "Jameel";
+  font-size: 24px;
+}
+.darseNizamiUrdu ul li {
+  direction: rtl;
+  font-family: "Jameel";
+  font-size: 24px;
+  margin-right: 60px;
+}
+
+/* ==========================
+   Large Tablet (≤ 992px)
+========================== */
+@media (max-width: 992px) {
+  .darseNizamiUrdu h1 {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 34px;
+  }
+
+  .darseNizamiUrdu h3 {
+    font-size: 28px;
+  }
+
+  .darseNizamiUrdu p {
+    font-size: 22px;
+  }
+  .darseNizamiUrdu ul li {
+    font-size: 22px;
+    margin-right: 40px;
+  }
+}
+
+/* ==========================
+   Tablet (≤ 768px)
+========================== */
+@media (max-width: 768px) {
+  .darseNizamiUrdu h1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .darseNizamiUrdu h3 {
+    font-size: 26px;
+    text-align: right;
+  }
+
+  .darseNizamiUrdu p {
+    font-size: 20px;
+    line-height: 1.9;
+  }
+  .darseNizamiUrdu ul li {
+    font-size: 20px;
+    margin-right: 25px;
+  }
+}
+
+/* ==========================
+   Mobile (≤ 576px)
+========================== */
+@media (max-width: 576px) {
+  .darseNizamiUrdu h1 {
+    margin-top: 60px;
+    margin-bottom: 18px;
+    font-size: 26px;
+  }
+
+  .darseNizamiUrdu h3 {
+    font-size: 23px;
+  }
+
+  .darseNizamiUrdu p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  .darseNizamiUrdu ul li {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+}

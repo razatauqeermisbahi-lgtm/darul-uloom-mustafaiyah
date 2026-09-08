@@ -1,0 +1,21 @@
+.aboutUrdu h3 {
+  font-family: "Aslam";
+  direction: rtl;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+.aboutUrdu h2 {
+  font-family: "Aslam";
+  direction: rtl;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+}
+.aboutUrdu p {
+  font-family: "Jameel";
+  direction: rtl;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+}

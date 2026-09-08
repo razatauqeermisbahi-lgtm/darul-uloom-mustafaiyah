@@ -1,0 +1,174 @@
+.testimonials {
+  width: 90%;
+  margin: 80px auto;
+  padding: 0 60px;
+  position: relative;
+}
+
+/* ================= Buttons ================= */
+
+.nextBtn,
+.prevBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background: #212ea0;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nextBtn {
+  right: 0;
+}
+
+.prevBtn {
+  left: 0;
+}
+
+/* ================= Slider ================= */
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider ul {
+  display: flex;
+  transition: transform 0.5s ease;
+  padding: 0;
+  margin: 0;
+}
+
+.slider ul li {
+  flex: 0 0 50%;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ================= Card ================= */
+
+.slide {
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 35px;
+  height: 100%;
+}
+.slide p {
+  text-align: justify;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.userInfo img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 3px solid #212ea0;
+}
+
+.userInfo h3 {
+  color: #212ea0;
+  margin-bottom: 4px;
+}
+
+.userInfo span {
+  color: #666;
+  font-size: 14px;
+}
+
+.slide p {
+  color: #666;
+  line-height: 1.7;
+}
+
+/* ================= Tablet ================= */
+
+@media (max-width: 992px) {
+  .testimonials {
+    padding: 0 45px;
+  }
+
+  .slider ul li {
+    padding: 15px;
+  }
+
+  .slide {
+    padding: 28px;
+  }
+
+  .nextBtn,
+  .prevBtn {
+    width: 45px;
+    height: 45px;
+    font-size: 22px;
+  }
+}
+
+/* ================= Mobile ================= */
+
+@media (max-width: 768px) {
+  .testimonials {
+    width: 95%;
+    padding: 0 20px;
+    margin: 60px auto;
+  }
+
+  .slider ul li {
+    flex: 0 0 100%;
+    padding: 10px;
+  }
+
+  .slide {
+    padding: 20px;
+  }
+
+  .userInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .userInfo img {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .nextBtn,
+  .prevBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+/* ================= Small Mobile ================= */
+
+@media (max-width: 480px) {
+  .testimonials {
+    padding: 0 10px;
+  }
+
+  .slide {
+    padding: 18px;
+  }
+
+  .slide p {
+    font-size: 14px;
+  }
+}

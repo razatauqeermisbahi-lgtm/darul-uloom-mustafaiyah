@@ -1,0 +1,79 @@
+.aboutmadarsaUrdu h1 {
+  direction: rtl;
+  font-family: "Aslam";
+  font-weight: 100;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.aboutmadarsaUrdu h3 {
+  direction: rtl;
+  font-family: "Jameel";
+  font-size: 30px;
+  font-weight: 600;
+}
+.aboutmadarsaUrdu p {
+  direction: rtl;
+  font-family: "Jameel";
+  font-size: 24px;
+}
+
+/* ==========================
+   Large Tablet (≤ 992px)
+========================== */
+@media (max-width: 992px) {
+  .aboutmadarsaUrdu h1 {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 34px;
+  }
+
+  .aboutmadarsaUrdu h3 {
+    font-size: 28px;
+  }
+
+  .aboutmadarsaUrdu p {
+    font-size: 22px;
+  }
+}
+
+/* ==========================
+   Tablet (≤ 768px)
+========================== */
+@media (max-width: 768px) {
+  .aboutmadarsaUrdu h1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .aboutmadarsaUrdu h3 {
+    font-size: 26px;
+    text-align: right;
+  }
+
+  .aboutmadarsaUrdu p {
+    font-size: 20px;
+    line-height: 1.9;
+  }
+}
+
+/* ==========================
+   Mobile (≤ 576px)
+========================== */
+@media (max-width: 576px) {
+  .aboutmadarsaUrdu h1 {
+    margin-top: 60px;
+    margin-bottom: 18px;
+    font-size: 26px;
+  }
+
+  .aboutmadarsaUrdu h3 {
+    font-size: 23px;
+  }
+
+  .aboutmadarsaUrdu p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+}

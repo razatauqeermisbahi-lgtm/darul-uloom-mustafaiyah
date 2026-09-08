@@ -1,0 +1,99 @@
+.rightUrdu {
+  font-family: "Jameel";
+  direction: rtl;
+}
+.rightUrdu img {
+  width: 100px;
+}
+.rightUrdu H4 {
+  font-family: "Aslam";
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-top: -15px;
+  margin-bottom: 0;
+}
+.rightUrdu p {
+  font-size: 17.5px;
+  text-align: justify;
+  margin: 0;
+}
+.rightBottomUrdu {
+  direction: rtl;
+  text-align: end;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.rightBottomUrdu p {
+  font-size: 17px;
+}
+
+/* ===========================
+   Tablet (992px)
+=========================== */
+
+@media (max-width: 992px) {
+  .rightUrdu img {
+    width: 85px;
+    margin: 0;
+  }
+
+  .rightUrdu h4 {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+
+  .rightUrdu p {
+    font-size: 16px;
+  }
+
+  .rightBottomUrdu {
+    gap: 15px;
+  }
+
+  .rightBottomUrdu p {
+    font-size: 16px;
+  }
+}
+
+/* ===========================
+   Mobile (768px)
+=========================== */
+
+@media (max-width: 768px) {
+  .rightUrdu {
+    text-align: center;
+  }
+
+  .rightUrdu img {
+    width: 75px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .rightUrdu h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: -8px;
+  }
+
+  .rightUrdu p {
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .rightBottomUrdu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .rightBottomUrdu p {
+    font-size: 15px;
+  }
+}

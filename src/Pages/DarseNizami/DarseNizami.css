@@ -1,0 +1,108 @@
+.darseNizami {
+  margin: 80px 120px;
+}
+.darseNizami h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: #212ea0;
+}
+.darseNizami h3 {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.darseNizami p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
+.darseNizami li {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+/* ===========================
+   Tablet (992px)
+=========================== */
+
+@media (max-width: 992px) {
+  .darseNizami {
+    margin: 80px 50px;
+  }
+
+  .darseNizami h1 {
+    font-size: 34px;
+  }
+
+  .darseNizami h3 {
+    font-size: 22px;
+  }
+
+  .darseNizami p,
+  .darseNizami li {
+    font-size: 18px;
+  }
+
+  .darseNizami li {
+    margin-left: 30px;
+  }
+}
+
+/* ===========================
+   Mobile (768px)
+=========================== */
+
+@media (max-width: 768px) {
+  .darseNizami {
+    margin: 80px 25px;
+  }
+
+  .darseNizami h1 {
+    font-size: 30px;
+  }
+
+  .darseNizami h3 {
+    font-size: 21px;
+  }
+
+  .darseNizami p,
+  .darseNizami li {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .darseNizami li {
+    margin-left: 25px;
+  }
+}
+
+/* ===========================
+   Small Mobile (480px)
+=========================== */
+
+@media (max-width: 480px) {
+  .darseNizami {
+    margin: 80px 15px;
+  }
+
+  .darseNizami h1 {
+    font-size: 26px;
+  }
+
+  .darseNizami h3 {
+    font-size: 19px;
+  }
+
+  .darseNizami p,
+  .darseNizami li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .darseNizami li {
+    margin-left: 20px;
+  }
+}

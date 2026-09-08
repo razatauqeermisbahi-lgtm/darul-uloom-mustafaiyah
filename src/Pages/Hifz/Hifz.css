@@ -1,0 +1,108 @@
+.hifz {
+  margin: 80px 120px;
+}
+.hifz h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: #212ea0;
+}
+.hifz h3 {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.hifz p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
+.hifz li {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+/* ===========================
+   Tablet (992px)
+=========================== */
+
+@media (max-width: 992px) {
+  .hifz {
+    margin: 80px 50px;
+  }
+
+  .hifz h1 {
+    font-size: 34px;
+  }
+
+  .hifz h3 {
+    font-size: 22px;
+  }
+
+  .hifz p,
+  .hifz li {
+    font-size: 18px;
+  }
+
+  .hifz li {
+    margin-left: 30px;
+  }
+}
+
+/* ===========================
+   Mobile (768px)
+=========================== */
+
+@media (max-width: 768px) {
+  .hifz {
+    margin: 80px 25px;
+  }
+
+  .hifz h1 {
+    font-size: 30px;
+  }
+
+  .hifz h3 {
+    font-size: 21px;
+  }
+
+  .hifz p,
+  .hifz li {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .hifz li {
+    margin-left: 25px;
+  }
+}
+
+/* ===========================
+   Small Mobile (480px)
+=========================== */
+
+@media (max-width: 480px) {
+  .hifz {
+    margin: 80px 15px;
+  }
+
+  .hifz h1 {
+    font-size: 26px;
+  }
+
+  .hifz h3 {
+    font-size: 19px;
+  }
+
+  .hifz p,
+  .hifz li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .hifz li {
+    margin-left: 20px;
+  }
+}

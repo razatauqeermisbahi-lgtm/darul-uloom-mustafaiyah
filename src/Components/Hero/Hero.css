@@ -1,0 +1,108 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(33, 46, 160, 0.6), rgba(33, 46, 160, 0.3)),
+    url(../../assets/slide-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroText {
+  text-align: center;
+  max-width: 800px;
+}
+.heroText h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.heroText p {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+.btn:hover {
+  transform: scale(0.96);
+}
+
+/* ===========================
+   Tablet (992px)
+=========================== */
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 0 5%;
+  }
+
+  .heroText {
+    max-width: 700px;
+  }
+
+  .heroText h1 {
+    font-size: 48px;
+  }
+
+  .heroText p {
+    font-size: 17px;
+    max-width: 600px;
+  }
+}
+
+/* ===========================
+   Mobile (768px)
+=========================== */
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 20px;
+    min-height: 90vh;
+  }
+
+  .heroText {
+    max-width: 100%;
+  }
+
+  .heroText h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .heroText p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px auto 25px;
+  }
+
+  .heroText .btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+
+/* ===========================
+   Small Mobile (480px)
+=========================== */
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 0 15px;
+    min-height: 85vh;
+  }
+
+  .heroText h1 {
+    font-size: 28px;
+  }
+
+  .heroText p {
+    font-size: 14px;
+    margin: 12px auto 20px;
+  }
+
+  .heroText .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

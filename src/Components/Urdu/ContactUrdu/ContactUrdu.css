@@ -1,0 +1,31 @@
+.contact-colUrdu {
+  direction: rtl;
+  font-family: "Jameel";
+}
+.contact-colUrdu h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.contact-colUrdu span {
+  margin-right: 30px;
+}
+.contact-colUrdu p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .contact-colUrdu h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .contact-colUrdu p {
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+  .contact-colUrdu span {
+    margin-right: 15px;
+  }
+}

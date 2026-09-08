@@ -1,0 +1,129 @@
+.principleMassage {
+  margin: 80px;
+  display: flex;
+}
+.left {
+  max-width: 40%;
+  text-align: center;
+}
+.left img {
+  width: 380px;
+  border-radius: 10px;
+}
+
+.right {
+  max-width: 60%;
+  margin-left: 30px;
+  text-align: center;
+}
+.right img {
+  width: 170px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+.right h4 {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(3, 3, 126);
+  margin-bottom: 8px;
+}
+.right p {
+  margin-bottom: 8px;
+  text-align: justify;
+  font-size: 15px;
+}
+.rightBottom {
+  text-align: left;
+}
+.right hr {
+  width: 100%;
+}
+
+/* ===========================
+   Tablet (992px)
+=========================== */
+
+@media (max-width: 992px) {
+  .principleMassage {
+    margin: 60px 40px;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .left {
+    max-width: 40%;
+  }
+
+  .left img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .right {
+    max-width: 60%;
+    margin-left: 0;
+  }
+
+  .right img {
+    width: 140px;
+    margin-top: 0;
+  }
+
+  .right h4 {
+    font-size: 16px;
+  }
+
+  .right p {
+    font-size: 14px;
+  }
+}
+
+/* ===========================
+   Mobile (768px)
+=========================== */
+
+@media (max-width: 768px) {
+  .principleMassage {
+    flex-direction: column;
+    margin: 40px 20px;
+    text-align: center;
+  }
+
+  .left,
+  .right {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .left img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .right {
+    margin-top: 25px;
+    order: 3;
+  }
+
+  .right img {
+    width: 120px;
+    margin: 0 auto 15px;
+    display: block;
+  }
+
+  .right h4 {
+    font-size: 15px;
+  }
+
+  .right p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.7;
+  }
+
+  .rightBottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
