@@ -8,7 +8,6 @@ import Hifz from "./Pages/Hifz/Hifz";
 import Qirat from "./Pages/Qirat/Qirat";
 import EnglishComputer from "./Pages/English&Computer/English&Computer";
 import ScrollToTop from "./Pages/ScrollToTop";
-import ScrollToHash from "../../My-madarsa/src/components/ScrollToHash";
 
 import HomeUrdu from "./Components/Urdu/Home/HomeUrdu";
 
@@ -22,8 +21,6 @@ const App = () => {
   return (
     <div>
       <ScrollToTop />
-      <ScrollToHash />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ur" element={<HomeUrdu />} />
