@@ -5,8 +5,19 @@ const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // Agar hash nahi hai to hi top par jao
-    if (!hash) {
+    if (hash) {
+      // थोड़ा wait ताकि page/sections render हो जाएँ
+      setTimeout(() => {
+        const element = document.getElementById(hash.substring(1));
+
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }, 100);
+    } else {
       window.scrollTo({
         top: 0,
         behavior: "smooth",
