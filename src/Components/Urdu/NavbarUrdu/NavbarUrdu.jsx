@@ -43,31 +43,31 @@ const NavbarUrdu = ({ page }) => {
         </li>
 
         <li>
-          <Link to="/ur/#courses" onClick={closeSidebar}>
+          <a href="/ur/#courses" onClick={closeSidebar}>
             کورسز
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to="/ur/#about" onClick={closeSidebar}>
+          <a href="/ur/#about" onClick={closeSidebar}>
             تعارف
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to="/ur/#facilities" onClick={closeSidebar}>
+          <a href="/ur/#facilities" onClick={closeSidebar}>
             سہولیات
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to="/ur/#gallery" onClick={closeSidebar}>
+          <a href="/ur/#gallery" onClick={closeSidebar}>
             گیلری
-          </Link>
+          </a>
         </li>
 
         <li className="urduBtn" onClick={closeSidebar}>
-          <Link to="/ur/#contact">رابطہ</Link>
+          <a href="/ur/#contact">رابطہ</a>
         </li>
 
         <IoClose
