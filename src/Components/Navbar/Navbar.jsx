@@ -53,33 +53,33 @@ const Navbar = ({ page }) => {
         </li>
 
         <li>
-          <Link to="/#courses" onClick={closeSidebar}>
+          <a href="/#courses" onClick={closeSidebar}>
             Courses
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to="/#about" onClick={closeSidebar}>
+          <a href="/#about" onClick={closeSidebar}>
             About Us
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to="/#facilities" onClick={closeSidebar}>
+          <a href="/#facilities" onClick={closeSidebar}>
             Facilities
-          </Link>
+          </a>
         </li>
 
         <li>
-          <Link to="/#gallery" onClick={closeSidebar}>
+          <a href="/#gallery" onClick={closeSidebar}>
             Gallery
-          </Link>
+          </a>
         </li>
 
         <li className="btn">
-          <Link to="/#contact" onClick={closeSidebar}>
+          <a href="/#contact" onClick={closeSidebar}>
             Contact Us
-          </Link>
+          </a>
         </li>
 
         <IoClose

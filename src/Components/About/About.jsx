@@ -4,7 +4,7 @@ import domePic from "../../assets/dome-pic.png";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="aboutleft">
         <img src={domePic} alt="" />
       </div>
