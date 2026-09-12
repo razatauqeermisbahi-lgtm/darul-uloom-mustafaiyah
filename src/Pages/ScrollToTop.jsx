@@ -6,7 +6,6 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     if (hash) {
-      // थोड़ा wait ताकि page/sections render हो जाएँ
       setTimeout(() => {
         const element = document.getElementById(hash.substring(1));
 
